@@ -24,7 +24,11 @@ export default {
   data () {
     return {
       schema,
-      form: {},
+      form: {
+        firstName: 'Test',
+        lastName: 'Test',
+        email: 's@gmail.com'
+      },
       status: null
     }
   },
